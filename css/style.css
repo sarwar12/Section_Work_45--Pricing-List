@@ -1,0 +1,103 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: ;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:hover{
+	text-decoration: none;
+}
+/* Main CSS Stop */
+/* Pricing section Start */
+.section-padding{
+	padding: 80px 0;
+}
+
+.single-pricing-box {
+	border: 1px solid #f4f4f4;
+	border-radius: 4px;
+	padding: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	transition: .3s;
+}
+a {
+	color: #14abf4;
+	transition: .3s;
+}
+.pricing-amount {
+  color: #14abf4;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 70px;
+  margin-bottom: 0;
+}
+.pricing-box-content {
+  margin-top: 30px;
+  border-top: 1px solid #f1f5fa;
+  padding-top: 30px;
+}
+.pricing-box-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pricing-box-content ul li {
+  padding-bottom: 13px;
+  line-height: 1.4;
+}
+.boxed-btn {
+  background: #14abf4;
+  color: #fff;
+  padding: 15px 50px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.single-pricing-box h4 {
+  margin-bottom: 40px;
+  font-size: 22px;
+}
+.single-pricing-box h4 span {
+  display: block;
+  color: #93cb72;
+  font-size: 85%;
+  font-weight: 400;
+}
+.single-pricing-box.active h4 {
+  margin-top: -23px;
+  margin-bottom: 40px;
+}
+.single-pricing-box.active {
+  position: relative;
+  z-index: 1;
+  border-radius: 0 0 5px 5px;
+  /*! box-shadow: 0 0 40px #f2f5f6; */
+}
+.single-pricing-box.active:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background: #67b930;
+}
+.single-pricing-box:hover {
+  box-shadow: 0 0 40px #f2f5f6;
+}
+.boxed-btn:hover {
+	background: #333;
+	color: #fff;
+}
+/* Pricing section Stop */
